@@ -137,9 +137,9 @@
 </body>
 <script>
     // Add a click event listener to the element with id 'shop'
-    document.getElementById('cart') {
-        alert('added to cart'); // Redirect to shop.php
-    };
+        document.getElementById('cart').addEventListener('click', function() {
+        alert('added to cart');
+    });
 </script>
 </html>
 

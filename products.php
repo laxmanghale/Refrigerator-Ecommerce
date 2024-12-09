@@ -16,7 +16,6 @@
             margin:0;
             background-color:  #F5F6FA;
             font-family: 'Nunito Sans', sans-serif;
-          
         }
         .all-container{
             display: flex;

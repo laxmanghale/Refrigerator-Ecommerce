@@ -1,0 +1,43 @@
+body{
+    background-color:    #F5F6FA;
+    height: 100vh;
+    
+}
+
+.tycontents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tyelements{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    text-align: center;
+    background-color: #fff;
+    padding:30px;
+    width:800px;
+    height:500px;
+}
+.tyup p{
+    text-decoration: underline;
+    font-size: 3em;
+}
+.tyelements img{
+    height:100px;
+    /* width: 100px;
+    margin-top: 35px; */
+}
+.tick {
+    width: 100px;
+    margin-top: 35px;
+}
+.tyup{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+
+}
+.tyelements p{
+    font-weight: bold;
+}
