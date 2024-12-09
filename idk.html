@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stat Card</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Nunito Sans', sans-serif;
+    }
+
+    .card {
+      width: 300px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card-content h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #333;
+    }
+
+    .card-content p {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .card-content .stat {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      color: #27ae60; /* Green color for percentage */
+    }
+
+    .card-content .stat img {
+      width: 16px;
+      margin-right: 5px;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      background-color: #e6e7ff; /* Light blue background */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .icon img {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <div class="card-content">
+    <p>Total User</p>
+    <h2>40,689</h2>
+    <div class="stat">
+      <img src="upwards.png" alt="Upwards">
+      <span>8.5% Up from yesterday</span>
+    </div>
+  </div>
+  <div class="icon">
+    <img src="user.png" alt="User Icon">
+  </div>
+</div>
+
+</body>
+</html>

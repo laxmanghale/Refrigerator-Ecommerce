@@ -1,0 +1,218 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+ 
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li {
+    margin-right: 20px;
+}
+/* .navbar nav ul li :hover {
+    transition: underline;
+} */
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar .search-bar input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.navbar .icons img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Highlight Section */
+.highlight {
+    background-image: url(./pic/background\ image.jpg);
+        display: flex;
+        justify-content: left;
+        margin: 0 auto;
+        width: 1300px;
+        height: 521px;
+        /* padding: 50px 20px; */
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        color: white;
+}
+.highlight-content {
+    margin-top: 25px;
+    text-align: left;
+    max-width: 600px;
+    padding-left: 25px;
+}
+
+.highlight-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.highlight-content p {
+    margin-top: 35px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-buy-now {
+    width: 145px;
+    height: 61px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: transform 0.2s ease;
+    margin-top: 135px;
+}
+
+.btn-buy-now:hover {
+    background-color: #d00;
+    transform: scale(1.1);
+}
+/* category section */
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.highlight {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding: 40px 20px;
+}
+
+/* Product Category Section */
+.product-category {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.product-category h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-category p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.btn-shop-all {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 19px;
+}
+
+.product-container {
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.product-item {
+    width: 283px;
+    height: 443px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-size: cover;
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white;
+    overflow: hidden; 
+}
+
+.product-item p {
+    background-color: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent background for readability */
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #fff; /* White text */
+    text-align: center;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/*product*/
+#down{
+    margin-top: 150px;
+}
