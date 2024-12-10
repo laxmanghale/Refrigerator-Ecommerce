@@ -1,4 +1,4 @@
-<?php include 'navbar.php'; ?>
+ <?php include 'navbar.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,12 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Listing</title>
     <link rel="stylesheet" href="shop.css">
+    <script src="shop.js" defer></script>
+
 </head>
 <body>
     <div class="container">
         <div class="filters">
             <h2>Filters</h2>
-            <button class="clear-filters">Clear filters</button>
+            <button class="clear-filters" id="clear-filters">Clear filters</button>
             
             <div class="filter-category">
                 <h3>Type</h3>
@@ -96,51 +98,50 @@
         </div>
 
         <div class="product-grid">
-            <div class="product-card">
-                <img src="./pic/674l.jpg" alt="674L Side by Side Fridge with InstaView Door-in-Door™ in Matt Black">
-                <h3>674L Side by Side Fridge with InstaView Door-in-Door™ in Matt Black</h3>
-                <p>RS 200,000</p>
-                <button id="cart">Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./pic/617l.jpg" alt="617L side-by-side-fridge with InstaView Door-in-Door™ in New Noble Steel">
-                <h3>617L side-by-side-fridge with InstaView Door-in-Door™ in New Noble Steel</h3>
-                <p>RS 352,000</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./pic/694L.jpg" alt="694L side-by-side-fridge with Linear Compressor in Platinum Silver">
-                <h3>694L side-by-side-fridge with Linear Compressor in Platinum Silver</h3>
-                <p>RS 211,000</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./pic/185L.jpg" alt="185 L, Fastest In Ice Making">
-                <h3>185 L, Fastest In Ice Making</h3>
-                <p>RS 200,000</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./pic/LG 185L.jpg" alt="LG 185L One Door Fridges with Ice Making">
-                <h3>LG 185L One Door Fridges with Ice Making</h3>
-                <p>RS 352,000</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="product-card">
-                <img src="./pic/506L.jpg" alt="506L Top Freezer with Inverter Linear Compressor in Platinum Silver">
-                <h3>506L Top Freezer with Inverter Linear Compressor in Platinum Silver</h3>
-                <p>RS 211,000</p>
-                <button>Add to Cart</button>
-            </div>
-        </div>
+ 
+    <div class="product-card" data-type="side-by-side" data-features="instaview-door" data-capacity="600l-more">
+        <img src="./pic/674l.jpg" alt="674L Side by Side Fridge with InstaView Door-in-Door™ in Matt Black">
+        <h3>674L Side by Side Fridge with InstaView Door-in-Door™ in Matt Black</h3>
+        <p>RS 200,000</p>
+        <button>Add to Cart</button>
     </div>
-</body>
-<script>
-    // Add a click event listener to the element with id 'shop'
-        document.getElementById('cart').addEventListener('click', function() {
-        alert('added to cart');
-    });
-</script>
-</html>
+    <div class="product-card" data-type="side-by-side" data-features="instaview-door" data-capacity="600l-more">
+        <img src="./pic/617l.jpg" alt="617L side-by-side-fridge with InstaView Door-in-Door™ in New Noble Steel">
+        <h3>617L Side-by-Side Fridge with InstaView Door-in-Door™ in New Noble Steel</h3>
+        <p>RS 352,000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card" data-type="side-by-side" data-features="linear-compressor" data-capacity="600l-more">
+        <img src="./pic/694L.jpg" alt="694L side-by-side-fridge with Linear Compressor in Platinum Silver">
+        <h3>694L Side-by-Side Fridge with Linear Compressor in Platinum Silver</h3>
+        <p>RS 211,000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card" data-type="one-door" data-features="fast-ice" data-capacity="400-600">
+        <img src="./pic/185L.jpg" alt="185 L, Fastest In Ice Making">
+        <h3>185L One Door Fridge with Fastest Ice Making</h3>
+        <p>RS 200,000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card" data-type="one-door" data-features="fast-ice" data-capacity="400-600">
+        <img src="./pic/LG 185L.jpg" alt="LG 185L One Door Fridge with Ice Making">
+        <h3>LG 185L One Door Fridge with Ice Making</h3>
+        <p>RS 352,000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card" data-type="top-freezer" data-features="linear-compressor" data-capacity="400-600">
+        <img src="./pic/506L.jpg" alt="506L Top Freezer with Inverter Linear Compressor in Platinum Silver">
+        <h3>506L Top Freezer with Inverter Linear Compressor in Platinum Silver</h3>
+        <p>RS 211,000</p>
+        <button>Add to Cart</button>
+    </div>
 
-<?php include 'footer.php'; ?>
+ 
+    <div class="product-card" data-type="double-door" data-features="hygiene-fresh,door-cooling" data-capacity="400-600">
+        <img src="./pic/500L.jpg" alt="500L Double Door Fridge with Hygiene Fresh and Door Cooling">
+        <h3>500L Double Door Fridge with Hygiene Fresh and Door Cooling</h3>
+        <p>RS 250,000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product-card" data-type="side-by-side" data-features="ice-water,instaview-door" data-capacity="600l-more">
+        <img src="./pic/700L.jpg" alt="700L Side-by-Side Fridge with Ice & Water Dispenser">

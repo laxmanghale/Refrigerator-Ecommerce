@@ -133,7 +133,7 @@
     <div class="contents">
         <form action="check.php" method="POST" name="login-box">
             <h2>Log in</h2>
-            <p id="error"> <?php echo htmlspecialchars($_SESSION['error_msg'])?></p>
+            <p id="error"> <?php if(isset($_SESSION['error_msg'])){echo htmlspecialchars($_SESSION['error_msg']);}?></p>
             <div class="input-fields">
                 <label for="email"><b>Email</b></label>
                 <input type="email" name="email" id="email" placeholder="Your email" required>

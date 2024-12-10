@@ -67,16 +67,16 @@ include "navbar.php";
         </div>
     </div>
 
-    <!-- Coupon -->
+
     <div class="coupon-container">
         <input type="text" class="coupon-input" placeholder="Enter coupon code here">
     </div>
 
-    <!-- Actions -->
-    <div class="bottomaction">
+  
+    <div class="bottomactions">
         <div class="actions">
             <button class="button" id="continue-shopping">Continue Shopping</button>
-            <button class="button">Clear Cart</button>
+            <button class="button" id="clear-cart">Clear Cart</button>
         </div>
         <div class="proceedcheckout">
             <button class="button primary" id="proceed-checkout">Proceed to Checkout</button>

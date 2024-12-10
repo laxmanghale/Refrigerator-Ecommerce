@@ -11,9 +11,9 @@
     <main class="main-container">
         <div class="product">
             <div class="image-gallery">
-                <div class="thumbnail selected"><img src="./pic/samsung700L.jpg"></div>
+                <div class="thumbnail selected"><img src="./pic/thumbnai14_files/S0a04ab259ed14e688b91b4f124450a6cl.jpg_2200x2200q80.jpg_.webp"></div>
                 <div class="thumbnail"><img src="./pic/thumbnai12.webp"></div>
-                <div class="thumbnail"><img src="./pic/thumbnai14_files/S0a04ab259ed14e688b91b4f124450a6cl.jpg_2200x2200q80.jpg_.webp"></div>
+                <div class="thumbnail"><img src="./pic/samsung700L.jpg"></div>
                 <div class="thumbnail"><img src="./pic/thumbnail12.jpg"></div>
             </div>
             <div class="main-image"><img src="./pic/thumbnai14_files/S0a04ab259ed14e688b91b4f124450a6cl.jpg_2200x2200q80.jpg_.webp"></div>
